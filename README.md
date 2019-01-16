@@ -1,5 +1,12 @@
 # batch_request_api
 
+# Forked Because...
+
+An error is returned due to `batch_sequential.rb`'s `body.body` line. Fixed with
+`body.first` to access the JSON response appropriately.
+
+# Back to Upstream...
+
 [![NetflixOSS Lifecycle](https://img.shields.io/osslifecycle/Netflix/osstracker.svg)]()
 
 Rails middleware gem to achieve Batch creates, updates and deletes.
